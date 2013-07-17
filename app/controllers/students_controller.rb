@@ -27,4 +27,11 @@ class StudentsController < ApplicationController
   def search
     @students = Student.where(name: params[:query])
   end
+
+  def sign_up
+  end
+
+  def login
+  end
+
 end
